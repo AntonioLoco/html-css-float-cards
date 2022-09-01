@@ -31,6 +31,7 @@ html{
     float: left;
     margin-bottom: 2em;
     margin-right: 1.5em;
+    box-shadow: 5px 5px 5px #a0a0a080;
 }
 
 .card:nth-child(3n+0){
