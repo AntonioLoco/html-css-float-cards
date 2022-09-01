@@ -24,6 +24,29 @@ html{
 
 
 
+/* UTILITIES */
+.card{
+    width: calc((100% / 3) - (3em/3));
+    float: left;
+    margin-bottom: 2em;
+    margin-right: 1.5em;
+    /* DEBUG */
+    background-color: cornflowerblue;
+}
+
+.card:nth-child(3n+0){
+    margin-right: 0;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
 /* HEADER */
 /* titolo della pagina */
 #titolo{
@@ -32,3 +55,12 @@ html{
     margin: 1em 0;
 }
 
+
+/* MAIN */
+.griglia{
+    width: 100%;
+    margin-top: 2.5em;
+    
+    /* DEBUG */
+    background-color: chocolate;
+}
