@@ -27,12 +27,10 @@ html{
 /* UTILITIES */
 .card{
     width: calc((100% / 3) - (3em/3));
-    height: 90px;
     background-color: #0f0e17;
     float: left;
     margin-bottom: 2em;
     margin-right: 1.5em;
-    
 }
 
 .card:nth-child(3n+0){
@@ -41,23 +39,21 @@ html{
 
 .photo-card{
     width: calc(100% / 3);
-    height: 90px;
     float: left;
 }
 
 .photo-card img{
     width: 100%;
-    height: 100%;
+    display: block;
 }
 
 .info-card{
     width: calc(100% - (100% / 3));
-    height: 90px;
     float: right;
     text-align: left;
     color: #fff;
-    padding-top: .5em;
-    padding-left: .5em;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 .info-card h2{
@@ -95,5 +91,4 @@ html{
 .griglia{
     width: 100%;
     margin-top: 2.5em;
-    
 }
