@@ -19,12 +19,15 @@ html{
     width: 80%;
     margin: 0 auto;
     font-size: 1.6rem;
-    text-align: center;
 }
 
 
 
 /* UTILITIES */
+.text-center{
+    text-align: center;
+}
+
 .card{
     width: calc((100% / 3) - (3em/3));
     background-color: #0f0e17;
@@ -51,7 +54,6 @@ html{
 .info-card{
     width: calc(100% - (100% / 3));
     float: right;
-    text-align: left;
     color: #fff;
     padding-top: 1em;
     padding-left: 1em;
@@ -81,7 +83,7 @@ html{
 
 /* HEADER */
 /* titolo della pagina */
-#titolo{
+.titolo{
     color: #e53170;
     font-size: 3.2rem;
     margin: 1em 0;
